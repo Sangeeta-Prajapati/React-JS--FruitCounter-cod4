@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.sub-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.heading {
+  color: #000000;
+  font-size: 30px;
+}
+
+.mango-count {
+  color: #ffd569;
+  font-size: 30px;
+}
+
+.banana-count {
+  color: #ffd569;
+  font-size: 30px;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+    margin: 40px;
+  }
+
+  .mango-count {
+    font-size: 40px;
+  }
+
+  .banana-count {
+    font-size: 40px;
+  }
+  .img {
+    height: 300px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .sub-container {
+    padding: 30px;
+  }
+  .fruit-container {
+    margin: 20px;
+    padding: 30px;
+  }
+}
